@@ -1,0 +1,122 @@
+/* cabeçalho pagina */
+.menu{
+    display: flex;
+    position: static;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+    background: #FFA000;
+    height: 48px;
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    margin-left: 12px; 
+}
+
+/* conteudo receita */
+main .receita{
+    padding-right: 96px;
+}
+
+main .receita h1 {
+    font-family: 'Montserrat', sans-serif;
+    color:#FFA000;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 700;
+    margin: 0 0 28px;
+}
+main .receita picture {
+    display: block;
+    margin: 0 0 25px;
+}
+
+main .receita .tag-receita{
+    display: flex;
+    padding: 0;
+    font-size: 18px;
+    }
+
+main .receita .tag-receita li{
+    padding: 7px 11px;
+    margin: 0 19px 0 0;
+    border-radius: 47px;
+    border: 1px solid;
+    color: #176902;
+    font-style: bold;
+}
+main .receita h3{
+    padding-top: 58px ;
+}
+main .receita .lista-ingredientes {
+    padding: 0;
+    font-size: 20px;
+}
+
+main .receita iframe{
+    padding-top: 37px ;
+}
+
+main receita #modo-de-preparo{
+    padding-top: 58px ;
+}
+
+main .receita .modo-de-preparo{
+    display: block;
+    max-width: 592px ;
+    padding: 0;
+    justify-items:normal;
+    font-size: 20px;
+}
+
+/* receitas relacionadas */
+
+main  aside{
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+    padding-left: 96px;
+    margin-block-end: 600px;
+}
+
+main aside h2{
+    color:#FFA000;
+}
+
+main aside section a {
+    text-decoration: none;
+    max-width: 345px;
+    max-height: 411px;
+}
+
+main aside section{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 125px;
+    margin-bottom:41px ;
+}
+
+main aside span {
+	display: block;
+    margin: 0;
+	font-size: 26px;
+	font-weight: 600;
+	padding: 17px 0 20px;
+	text-align: center;
+}
+
+/*  divisao da areas pagina */
+
+/* main{
+    border: black 10px solid;
+}
+.receita {
+    border: blue 5px solid;
+}
+aside {
+    border: yellow 10px solid;
+}
+
+aside section{
+    border: green solid 1px;
+} */

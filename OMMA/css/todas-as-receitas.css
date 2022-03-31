@@ -1,0 +1,105 @@
+body{
+    width: 100%;
+}
+main article{
+    width: 1440px;
+}
+
+main > article {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0;
+}
+
+.menu{
+    display: flex;
+    position: static;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+    background: #FFA000;
+    height: 48px;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    margin-left: 12px; 
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#todas-as-receitas{
+    font-family: 'Montserrat', sans-serif;
+    color:#FFA000;
+    font-size: 50px;
+    font-style: bold;
+    font-weight: 700;
+    /* border: magenta 5px solid;  */
+}
+main article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.quadrantes{
+    margin-bottom: 116px;
+    width: 345px;
+}
+main article .grid-receitas{
+    max-width: 1194px;
+}
+
+main article section img{
+    width: 100%;
+    display: block;
+}
+
+main article section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+    height: 56px;
+}
+
+main article section .conferir {
+    width: 185px;
+    height: 48px;
+    display: flex;
+    background: #176902;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    font-size: 24px;
+}
+
+/* divisao de seções */
+
+/* main{
+    border: black 10px solid;
+}
+main article{
+    border: pink 3px solid;
+}
+main section {
+    border: blue 3px solid;
+}
+main section img{
+    border: green 1px solid;
+}
+main section p{
+    border: orange 1px solid;
+}
+main section a{
+    border: green 1px solid;
+}
+footer{
+    border: yellow 1px solid;
+} */

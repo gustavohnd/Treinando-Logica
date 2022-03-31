@@ -1,0 +1,66 @@
+main {
+    width: 100%;
+    padding: 82px;
+}
+main > h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: left;
+    margin-top: 0;
+}
+
+
+.cursos-1{
+    display: flex;
+    border-bottom:  #C4C4C4 5px solid;
+    padding-top: 95px;
+   padding-bottom: 68px;
+   flex-wrap: wrap;
+}
+
+.cursos-1 > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 724px;
+    padding-left: 53px;
+}
+
+.cursos-1 > div > h3{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.cursos-1 > div > p{
+    display: flex;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #050505;
+}
+
+.cursos-1 > div > a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background: #2E948A;
+    border-radius: 62px;
+    margin-top: 70px;
+    width: 233px;
+    height: 51px;
+}
