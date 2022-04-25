@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "omma-js",
+  "description": "Aprendendo log de programação com Java Script",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

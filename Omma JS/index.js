@@ -1,11 +1,11 @@
 const nomeEmpresa = "Sistema Omma";
 console.log(nomeEmpresa);
 
-const listaDeReceitas = [ {
+const listaDeReceitas = [{
     id: 1,
     titulo: "Cachorro Quente",
     dificuldade: "Simples",
-    ingredientes: [ "1 pão de leite", "1 salsicha, molho de tomate"," bata palha a gosto" ],
+    ingredientes: ["1 pão de leite", "1 salsicha, molho de tomate", " bata palha a gosto"],
     preparo: "Lorem it num spretro patrono",
     link: "https//youtube.com",
     vegano: false,
@@ -20,22 +20,22 @@ const cadastrarReceita = (
     preparo,
     link,
     vegano,
-    ) => {
-        const novaReceita = {
-            id,
-            titulo,
-            dificuldade,
-            ingredientes,
-            preparo,
-            link,
-            vegano,
-        }
+) => {
+    const novaReceita = {
+        id,
+        titulo,
+        dificuldade,
+        ingredientes,
+        preparo,
+        link,
+        vegano,
+    }
 
-        listaDeReceitas.push (novaReceita);
-        console.log(`Cadastro  da receita  ${titulo} feito com sucesso`);
+    listaDeReceitas.push(novaReceita);
+    console.log(`Cadastro  da receita  ${titulo} feito com sucesso`);
 }
 
-cadastrarReceita (
+cadastrarReceita(
     2,
     "Ovo Frito",
     "facil",
@@ -45,7 +45,7 @@ cadastrarReceita (
     false,
 )
 
-console.log(cadastrarReceita: (id: 2) => != -1);
+
 
 
 // for ( let = "exibirReceitas" ;  i=1 ; i++){

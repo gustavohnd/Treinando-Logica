@@ -1,0 +1,14 @@
+//Projeto JS Avançado
+
+const livros = require('./database')
+// console.log(livros)
+
+//pegar imput do usuario
+
+const readline = require('readline-sync')
+
+const entradaInicial = readline.question('Deseja buscar um livro? (S/N)')
+
+// se sim, mostra as categorias disponiveis, pergunta qual deles ela escolhe
+
+//se nao, mostra todos os livros  crescente pela quantidade de paginas
